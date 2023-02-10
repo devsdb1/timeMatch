@@ -1,0 +1,71 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Time match</title>
+<link rel="shortcut icon" href="favicon.ico" /> 
+
+<style>
+.fl{
+  float:left;
+}
+
+.twenty-four-hours-block{
+	background-color: gray;
+	height: 100px;
+	width: 1300px;
+}
+
+.twenty-four-hours-block-night{
+	background-color: #6951f7;
+	height: 100px;
+	width: 100px;
+}
+
+.twenty-four-hours-block-day{
+	background-color: #f2fd73;
+	height: 100px;
+	width: 100px;
+}
+
+.v-cloak{
+  	display:none;
+}
+
+</style>
+<script src="vue.global.js"></script>
+<script src="./TimeMatch.js"></script>
+</head>
+<body>
+
+
+
+
+  <div id="app" v-cloak>
+    Welcome to TIMEMATCH.  1366 x 768
+    <div>
+    <time-zone-list/>
+    </div>
+    <div>
+    <custom-form/>
+    </div>
+  </div>
+
+
+
+
+<div class="twenty-four-hours-block">
+
+	<div class="fl twenty-four-hours-block-night"></div>
+	<div class="fl twenty-four-hours-block-day"></div>
+</div>
+
+
+
+
+
+
+
+
+<script>
+
+</script>
